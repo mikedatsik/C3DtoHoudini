@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainMenu>
+    <menuBar>
+        <subMenu id="file_menu">
+            <subMenu id="import_files">
+                <scriptItem id="h.import_c3d">
+                    <label>Import C3D...</label>
+                    <scriptCode><![CDATA[
+from PyC3D import c3d_ui
+c3d_ui.C3D_MainWindow()
+]]>
+                    </scriptCode>
+                </scriptItem>
+            </subMenu>
+        </subMenu>
+    </menuBar>
+</mainMenu>
